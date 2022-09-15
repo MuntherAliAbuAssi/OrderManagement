@@ -1,0 +1,15 @@
+E:\ASPProject\Project\Project.Data\bin\Debug\net5.0\Project.Data.deps.json
+E:\ASPProject\Project\Project.Data\bin\Debug\net5.0\Project.Data.runtimeconfig.json
+E:\ASPProject\Project\Project.Data\bin\Debug\net5.0\Project.Data.runtimeconfig.dev.json
+E:\ASPProject\Project\Project.Data\bin\Debug\net5.0\Project.Data.dll
+E:\ASPProject\Project\Project.Data\bin\Debug\net5.0\Project.Data.pdb
+E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\Project.Data.csproj.AssemblyReference.cache
+E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\Project.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\Project.Data.AssemblyInfoInputs.cache
+E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\Project.Data.AssemblyInfo.cs
+E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\Project.Data.csproj.CoreCompileInputs.cache
+E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\Project.Data.dll
+E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\refint\Project.Data.dll
+E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\Project.Data.pdb
+E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\Project.Data.genruntimeconfig.cache
+E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\ref\Project.Data.dll

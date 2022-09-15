@@ -1,0 +1,17 @@
+E:\ASPProject\Project\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.csproj.AssemblyReference.cache
+E:\ASPProject\Project\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASPProject\Project\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.AssemblyInfoInputs.cache
+E:\ASPProject\Project\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.AssemblyInfo.cs
+E:\ASPProject\Project\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.csproj.CoreCompileInputs.cache
+E:\ASPProject\Project\Project.Infrastructure\bin\Debug\net5.0\Project.Infrastructure.deps.json
+E:\ASPProject\Project\Project.Infrastructure\bin\Debug\net5.0\Project.Infrastructure.dll
+E:\ASPProject\Project\Project.Infrastructure\bin\Debug\net5.0\Project.Infrastructure.pdb
+E:\ASPProject\Project\Project.Infrastructure\bin\Debug\net5.0\Project.Core.dll
+E:\ASPProject\Project\Project.Infrastructure\bin\Debug\net5.0\Project.Data.dll
+E:\ASPProject\Project\Project.Infrastructure\bin\Debug\net5.0\Project.Core.pdb
+E:\ASPProject\Project\Project.Infrastructure\bin\Debug\net5.0\Project.Data.pdb
+E:\ASPProject\Project\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.csproj.CopyComplete
+E:\ASPProject\Project\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.dll
+E:\ASPProject\Project\Project.Infrastructure\obj\Debug\net5.0\refint\Project.Infrastructure.dll
+E:\ASPProject\Project\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.pdb
+E:\ASPProject\Project\Project.Infrastructure\obj\Debug\net5.0\ref\Project.Infrastructure.dll
