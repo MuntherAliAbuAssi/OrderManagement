@@ -7,8 +7,8 @@ using Project.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
 
 namespace Project.Infrastructure.Services.ResturentMenu
 {
@@ -21,7 +21,7 @@ namespace Project.Infrastructure.Services.ResturentMenu
             _db = db;
             _mapper = mapper;
         }
-        public  MenuViewModel Get(int Id)
+        public MenuViewModel Get(int Id)
         {
             var menu =  _db.RestaurantMenus.SingleOrDefault(x => x.Id == Id);
             if (menu == null)
@@ -30,15 +30,14 @@ namespace Project.Infrastructure.Services.ResturentMenu
             } 
             var menuVm = _mapper.Map<MenuViewModel>(menu);
              
-            return menuVm;
+            return menuVm; 
         }
         public  RestaurantMenu Create(CreateMenuDto dto)
         {
             var menu = _mapper.Map<RestaurantMenu>(dto);
-
-             _db.RestaurantMenus.AddAsync(menu);
-             _db.SaveChangesAsync();
-            return menu;
+             _db.RestaurantMenus.Add(menu);
+             _db.SaveChanges();
+            return menu; 
         }  
         public RestaurantMenu Update(UpdateMenuDto dto)
         {

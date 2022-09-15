@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ASPProject\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj": {}
+    "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Infrastructure\\Project.Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\ASPProject\\Project\\Project.Core\\Project.Core.csproj": {
+    "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ASPProject\\Project\\Project.Core\\Project.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj",
         "projectName": "Project.Core",
-        "projectPath": "E:\\ASPProject\\Project\\Project.Core\\Project.Core.csproj",
+        "projectPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj",
         "packagesPath": "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\",
-        "outputPath": "E:\\ASPProject\\Project\\Project.Core\\obj\\",
+        "outputPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Munther Abu Assi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "E:\\ASPProject\\Project\\Project.Data\\Project.Data.csproj": {
+    "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Data\\Project.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ASPProject\\Project\\Project.Data\\Project.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Data\\Project.Data.csproj",
         "projectName": "Project.Data",
-        "projectPath": "E:\\ASPProject\\Project\\Project.Data\\Project.Data.csproj",
+        "projectPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Data\\Project.Data.csproj",
         "packagesPath": "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\",
-        "outputPath": "E:\\ASPProject\\Project\\Project.Data\\obj\\",
+        "outputPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Munther Abu Assi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -134,14 +134,14 @@
         }
       }
     },
-    "E:\\ASPProject\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj": {
+    "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Infrastructure\\Project.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ASPProject\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Infrastructure\\Project.Infrastructure.csproj",
         "projectName": "Project.Infrastructure",
-        "projectPath": "E:\\ASPProject\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Infrastructure\\Project.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\",
-        "outputPath": "E:\\ASPProject\\Project\\Project.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Munther Abu Assi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,11 +158,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\ASPProject\\Project\\Project.Core\\Project.Core.csproj": {
-                "projectPath": "E:\\ASPProject\\Project\\Project.Core\\Project.Core.csproj"
+              "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj": {
+                "projectPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj"
               },
-              "E:\\ASPProject\\Project\\Project.Data\\Project.Data.csproj": {
-                "projectPath": "E:\\ASPProject\\Project\\Project.Data\\Project.Data.csproj"
+              "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Data\\Project.Data.csproj": {
+                "projectPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Data\\Project.Data.csproj"
               }
             }
           }

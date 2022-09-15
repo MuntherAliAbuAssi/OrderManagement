@@ -13,3 +13,18 @@ E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\refint\Project.Data.dll
 E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\Project.Data.pdb
 E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\Project.Data.genruntimeconfig.cache
 E:\ASPProject\Project\Project.Data\obj\Debug\net5.0\ref\Project.Data.dll
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\bin\Debug\net5.0\Project.Data.deps.json
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\bin\Debug\net5.0\Project.Data.runtimeconfig.json
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\bin\Debug\net5.0\Project.Data.runtimeconfig.dev.json
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\bin\Debug\net5.0\Project.Data.dll
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\bin\Debug\net5.0\Project.Data.pdb
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\obj\Debug\net5.0\Project.Data.csproj.AssemblyReference.cache
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\obj\Debug\net5.0\Project.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\obj\Debug\net5.0\Project.Data.AssemblyInfoInputs.cache
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\obj\Debug\net5.0\Project.Data.AssemblyInfo.cs
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\obj\Debug\net5.0\Project.Data.csproj.CoreCompileInputs.cache
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\obj\Debug\net5.0\Project.Data.dll
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\obj\Debug\net5.0\refint\Project.Data.dll
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\obj\Debug\net5.0\Project.Data.pdb
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\obj\Debug\net5.0\Project.Data.genruntimeconfig.cache
+C:\Users\Munther Abu Assi\Source\Repos\MuntherAliAbuAssi\OrderManagement\Project.Data\obj\Debug\net5.0\ref\Project.Data.dll

@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using CsvHelper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Project.Core.Dtos;
 using Project.Infrastracture.Services.Resturents;
+using System.Globalization;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace Project.Web.Controllers
@@ -38,6 +41,16 @@ namespace Project.Web.Controllers
         {
             var customer =  _resturentService.Delete(Id);
             return Ok(customer);
+        }
+        [HttpGet]
+        public IActionResult CSV(int Id)
+        {  
+            using (var writer = new StreamWriter("E:\\Munther.csv"))
+            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+            {
+              //  csv.WriteRecords(mappingModelView);
+            }
+            return Ok();
         }
     }
 }

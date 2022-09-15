@@ -30,7 +30,7 @@ namespace Project.Web.Controllers
         [HttpPut]
         public IActionResult Update(UpdateMenuDto dto) 
         {
-            var menu =  _menuService.Update(dto);
+            var menu = _menuService.Update(dto);
             return Ok(menu);
         }
         [HttpDelete]

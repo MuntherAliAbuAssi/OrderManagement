@@ -35,7 +35,7 @@ namespace Project.Infrastructure.Services.Orderd
         }
         public Order Create(CreateOrderDto dto)
         {
-            if (!IsAvaliable())
+            if (IsAvaliable())
             {
                 var order = _mapper.Map<Order>(dto);
 

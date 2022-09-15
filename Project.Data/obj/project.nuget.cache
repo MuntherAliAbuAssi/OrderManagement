@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YKFYzJ25naJ4mcaan4XnHQgJXPV0TJjvE3hwLimsvnTJTrKXW0EgV3PawehkTPC/rvOR3q058mYkPPDnL8+uCQ==",
+  "dgSpecHash": "0z4Ju/80j3BR6GBhGaabBYUxzpgoCdd7kRfuYE3apzmfbx9+6gB0pMQw6k9UjkkCwreDVyoBGFpMpzgpHABFYw==",
   "success": true,
-  "projectFilePath": "E:\\ASPProject\\Project\\Project.Data\\Project.Data.csproj",
+  "projectFilePath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Data\\Project.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

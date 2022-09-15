@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A88bK5ahLbgaPbI2AzyNM8Brj6m/y9mM/q8TieWhotRKsCXuw18bcYXl2yIHT5p7+AuCqbvrc9JKneI/u27HTg==",
+  "dgSpecHash": "n3rcZq23OEVLqPwJGnmcRsAVdYIzBWnG+oPizJ2Bo641iWiFM5HU9ARMtmXhlCavGgqolq9Z3zWw2rdAS6DeKg==",
   "success": true,
-  "projectFilePath": "E:\\ASPProject\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Infrastructure\\Project.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

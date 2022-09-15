@@ -49,10 +49,10 @@ namespace Project.Web
             });
 
             //  علشان يضيف  json  التعامل مع 
-            //services.AddControllers().AddNewtonsoftJson(o =>
-            //{
-            //    o.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
-            //});
+            services.AddControllers().AddNewtonsoftJson(o =>
+            {
+                o.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            }); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

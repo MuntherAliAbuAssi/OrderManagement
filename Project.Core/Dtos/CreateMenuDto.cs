@@ -9,7 +9,7 @@ namespace Project.Core.Dtos
 {
     public class CreateMenuDto
     {
-        [Required]
+        [Required] 
         public string MealName { get; set; }
         public double PriceInNis { get; set; }
         public int Quantity { get; set; }   

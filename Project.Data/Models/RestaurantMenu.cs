@@ -10,12 +10,16 @@ namespace Project.Data.Models
         public RestaurantMenu()
         {
             Orders = new HashSet<Order>();
-        }
-
+        }    
         public int Id { get; set; }
         public string MealName { get; set; }
-        public double PriceInNis { get; set; } 
-        public double PriceInUsd { get => PriceInUsd; set => PriceInUsd *=3.5; }
+        public decimal PriceInNis { get; set; }
+        
+        private decimal _PriceInUsd;
+        public decimal PriceInUsd{
+            get  => _PriceInUsd;  
+            set => _PriceInUsd = PriceInNis / 3.5m;
+        }
         public int Quantity { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; } 
