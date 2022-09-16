@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj": {}
+    "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj": {
+    "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj",
         "projectName": "Project.Core",
-        "projectPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj",
+        "projectPath": "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\Project.Core.csproj",
         "packagesPath": "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\obj\\",
+        "outputPath": "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Munther Abu Assi\\AppData\\Roaming\\NuGet\\NuGet.Config",

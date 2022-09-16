@@ -42,15 +42,15 @@ namespace Project.Web.Controllers
             var customer =  _resturentService.Delete(Id);
             return Ok(customer);
         }
-        [HttpGet]
-        public IActionResult CSV(int Id)
-        {  
-            using (var writer = new StreamWriter("E:\\Munther.csv"))
-            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
-            {
-              //  csv.WriteRecords(mappingModelView);
-            }
-            return Ok();
-        }
+        //[HttpGet]
+        //public IActionResult CSV(int Id)
+        //{  
+        //    using (var writer = new StreamWriter("E:\\Munther.csv"))
+        //    using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+        //    {
+        //      //  csv.WriteRecords(mappingModelView);
+        //    }
+        //    return Ok();
+        //}
     }
 }

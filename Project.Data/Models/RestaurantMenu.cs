@@ -18,7 +18,7 @@ namespace Project.Data.Models
         private decimal _PriceInUsd;
         public decimal PriceInUsd{
             get  => _PriceInUsd;  
-            set => _PriceInUsd = PriceInNis / 3.5m;
+            set => _PriceInUsd = (PriceInNis / 3.5m);
         }
         public int Quantity { get; set; }
         public DateTime CreatedDate { get; set; }

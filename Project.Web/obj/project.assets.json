@@ -5880,11 +5880,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Web\\Project.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Web\\Project.Web.csproj",
       "projectName": "Project.Web",
-      "projectPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Web\\Project.Web.csproj",
+      "projectPath": "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Web\\Project.Web.csproj",
       "packagesPath": "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Web\\obj\\",
+      "outputPath": "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Munther Abu Assi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5901,11 +5901,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Data\\Project.Data.csproj": {
-              "projectPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Data\\Project.Data.csproj"
+            "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Data\\Project.Data.csproj": {
+              "projectPath": "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Data\\Project.Data.csproj"
             },
-            "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Infrastructure\\Project.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Infrastructure\\Project.Infrastructure.csproj"
+            "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Infrastructure\\Project.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Infrastructure\\Project.Infrastructure.csproj"
             }
           }
         }

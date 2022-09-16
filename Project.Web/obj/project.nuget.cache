@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sYuSPB0XpDwLVn6d8zWH8qWNNKW6M9WG17o5iB1cPtCHeOIQ1/QwMRZv9RdM3oVwsX5Xejggeurgcm0fzDTL2w==",
+  "dgSpecHash": "5ncdvx8X7VjkOpzxeGTpqW/WwyLJzRPbUsr0imr7KqZWJgxsAc4l+OLinXR4l92rRPgDimIHSFQzeKvzAmaVvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Munther Abu Assi\\Source\\Repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Web\\Project.Web.csproj",
+  "projectFilePath": "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Web\\Project.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
