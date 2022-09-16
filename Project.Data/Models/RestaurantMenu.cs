@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace Project.Data.Models
 {
     public partial class RestaurantMenu
-    {
+    { 
         public RestaurantMenu()
         {
             Orders = new HashSet<Order>();
@@ -14,11 +14,9 @@ namespace Project.Data.Models
         public int Id { get; set; }
         public string MealName { get; set; }
         public decimal PriceInNis { get; set; }
-        
-        private decimal _PriceInUsd;
         public decimal PriceInUsd{
-            get  => _PriceInUsd;  
-            set => _PriceInUsd = (PriceInNis / 3.5m);
+            get;
+            set;
         }
         public int Quantity { get; set; }
         public DateTime CreatedDate { get; set; }

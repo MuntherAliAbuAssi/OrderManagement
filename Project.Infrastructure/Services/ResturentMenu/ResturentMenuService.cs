@@ -35,6 +35,7 @@ namespace Project.Infrastructure.Services.ResturentMenu
         public  RestaurantMenu Create(CreateMenuDto dto)
         {
             var menu = _mapper.Map<RestaurantMenu>(dto);
+            menu.PriceInUsd = (dto.PriceInNis/3.50m);
              _db.RestaurantMenus.Add(menu);
              _db.SaveChanges();
             return menu; 
