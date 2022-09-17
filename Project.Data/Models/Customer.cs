@@ -10,7 +10,6 @@ namespace Project.Data.Models
         public Customer()
         {
             Orders = new HashSet<Order>();
-            CreatedDate = DateTime.Now;
         }
 
         public int Id { get; set; }

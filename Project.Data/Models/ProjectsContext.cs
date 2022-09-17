@@ -11,19 +11,20 @@ namespace Project.Data.Models
         public ProjectsContext()
         {
         }
-        public bool FilterCustomer { get; set; }
-        public bool FilterOrder { get; set; }
-        public bool FilterResturent { get; set; }
-        public bool FilterMenue { get; set; } 
+
         public ProjectsContext(DbContextOptions<ProjectsContext> options)
             : base(options)
         {
         }
-
+        public bool FilterCustomer { get; set; }
+        public bool FilterOrder { get; set; }
+        public bool FilterResturent { get; set; }
+        public bool FilterMenue { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<Restaurant> Restaurants { get; set; }
         public virtual DbSet<RestaurantMenu> RestaurantMenus { get; set; }
+        public virtual DbSet<ScvView> ScvViews { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -58,13 +59,10 @@ namespace Project.Data.Models
                 entity.Property(e => e.UpdatedDate)
                     .HasColumnType("datetime")
                     .HasDefaultValueSql("(getdate())");
-                entity.Property(e => e.Archived).HasColumnType("smallint"); 
             });
 
             modelBuilder.Entity<Order>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.HasOne(d => d.Custamer)
                     .WithMany(p => p.Orders)
                     .HasForeignKey(d => d.CustamerId)
@@ -99,7 +97,6 @@ namespace Project.Data.Models
                 entity.Property(e => e.UpdateDate)
                     .HasColumnType("datetime")
                     .HasDefaultValueSql("(getdate())");
-                entity.Property(e => e.Archived).HasColumnType("smallint");
             });
 
             modelBuilder.Entity<RestaurantMenu>(entity =>
@@ -112,7 +109,7 @@ namespace Project.Data.Models
 
                 entity.Property(e => e.MealName)
                     .IsRequired()
-                    .HasMaxLength(255) 
+                    .HasMaxLength(255)
                     .IsUnicode(false);
 
                 entity.Property(e => e.UpdatedDate)
@@ -123,13 +120,32 @@ namespace Project.Data.Models
                     .WithMany(p => p.RestaurantMenus)
                     .HasForeignKey(d => d.RestaurantId)
                     .HasConstraintName("FK__Restauran__Resta__164452B1");
-                entity.Property(e => e.Archived).HasColumnType("smallint");
             });
-            modelBuilder.Entity<Order>().HasQueryFilter(x=> !x.Archived || FilterOrder);
+
+            modelBuilder.Entity<ScvView>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToView("scvView");
+
+                entity.Property(e => e.MostPurchasedCustomer)
+                    .HasMaxLength(255)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.NameResturent)
+                    .IsRequired()
+                    .HasMaxLength(255)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.TheBestSellingMeal)
+                    .HasMaxLength(255)
+                    .IsUnicode(false);
+            });
+            modelBuilder.Entity<Order>().HasQueryFilter(x => !x.Archived || FilterOrder);
             modelBuilder.Entity<Customer>().HasQueryFilter(x => !x.Archived || FilterCustomer);
             modelBuilder.Entity<Restaurant>().HasQueryFilter(x => !x.Archived || FilterResturent);
             modelBuilder.Entity<RestaurantMenu>().HasQueryFilter(x => !x.Archived || FilterMenue);
-            OnModelCreatingPartial(modelBuilder);
+            OnModelCreatingPartial(modelBuilder); 
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

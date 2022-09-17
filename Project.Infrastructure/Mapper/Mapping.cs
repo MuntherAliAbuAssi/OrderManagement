@@ -30,6 +30,8 @@ namespace Project.Infrastracture.Mapper
             CreateMap<CreateOrderDto, Order>();
             CreateMap<UpdateOrderDto, Order>();
             CreateMap<Order, OrderViewModel>();
+            //
+            CreateMap<ScvView, CsvViewModel>();
 
         }
     }

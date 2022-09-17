@@ -184,6 +184,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[28.0.1, )"
             }
           },
           "imports": [

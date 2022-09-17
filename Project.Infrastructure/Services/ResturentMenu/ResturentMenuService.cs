@@ -17,7 +17,7 @@ namespace Project.Infrastructure.Services.ResturentMenu
         private readonly ProjectsContext _db;
         private readonly IMapper _mapper;
         public ResturentMenuService(ProjectsContext db, IMapper mapper)
-        {
+        { 
             _db = db;
             _mapper = mapper;
         }
@@ -30,12 +30,12 @@ namespace Project.Infrastructure.Services.ResturentMenu
             } 
             var menuVm = _mapper.Map<MenuViewModel>(menu);
              
-            return menuVm; 
+            return menuVm;
         }
         public  RestaurantMenu Create(CreateMenuDto dto)
         {
             var menu = _mapper.Map<RestaurantMenu>(dto);
-            menu.PriceInUsd = (dto.PriceInNis/3.50m);
+            menu.PriceInUsd = (dto.PriceInNis/3.50m); 
              _db.RestaurantMenus.Add(menu);
              _db.SaveChanges();
             return menu; 

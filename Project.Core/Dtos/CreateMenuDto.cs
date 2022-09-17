@@ -14,5 +14,6 @@ namespace Project.Core.Dtos
         public decimal PriceInNis { get; set; }
         public int Quantity { get; set; }   
         public int RestaurantId { get; set; }
+      
     }
 }

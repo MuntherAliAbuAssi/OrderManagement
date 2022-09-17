@@ -22,7 +22,7 @@ namespace Project.Web.Controllers
             return Ok(menu);
         }
         [HttpPost]
-        public IActionResult Create([FromBody] CreateOrderDto dto)
+        public IActionResult Create([FromBody] CreateOrderDto dto) 
         {
             var menu =  _orderService.Create(dto);
             return Ok(menu);

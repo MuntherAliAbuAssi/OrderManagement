@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "M5BUEVKvSSME+K8CHqh5RLn34wYhd/7o20vcx3qDuvUZ/M88L7g/0/IRWTrFIsTN6waNYrs7xNDJLCGjZ3qIiQ==",
+  "dgSpecHash": "SVowf4OWWL75xKc1ENOZyeilyq/qL7IiRwDolcO9ihi4C1BBvieNsO21yze+xbAvGlzQtIjpmIfLI6jp9GT6kg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Munther Abu Assi\\source\\repos\\MuntherAliAbuAssi\\OrderManagement\\Project.Infrastructure\\Project.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512",
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Munther Abu Assi\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
