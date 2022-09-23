@@ -1,11 +1,23 @@
+USE [Projects]
+GO
+
+/****** Object:  View [dbo].[scvView]    Script Date: 9/23/2022 4:01:14 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+create view [dbo].[scvView] as (
 select Restaurant.Name NameResturent,
 count(Orders.id) as OrdersCount,
 		sum(RestaurantMenu.PriceInUsd) as PriceInUsdTotal,
 		sum(RestaurantMenu.PriceInNis) as PriceInNisTotal,	
 		(select FirstName from Customer where id = (select CustamerId from Orders group by CustamerId order by count(id) desc OFFSET  1 ROWS FETCH NEXT 1 ROWS ONLY)) as MostPurchasedCustomer,
-        (select MealName from RestaurantMenu where Id =(select RestaurantMenuId from Orders group by RestaurantMenuId order by count(id) desc OFFSET  1 ROWS FETCH NEXT 1 ROWS ONLY)) as TheBestSellingMeal 
+        (select MealName from RestaurantMenu where Id =(select RestaurantMenuId from Orders group by RestaurantMenuId order by count(id)desc OFFSET  1 ROWS FETCH NEXT 1 ROWS ONLY)) as TheBestSellingMeal 
 from Restaurant
 left join RestaurantMenu on Restaurant.Id = RestaurantMenu.RestaurantId
 left join Orders on RestaurantMenu.Id = Orders.RestaurantMenuId
-group by Restaurant.Name 
- 
+group by Restaurant.Name
+); 
+GO
