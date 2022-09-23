@@ -1,7 +1,7 @@
 USE [Projects]
 GO
 
-/****** Object:  Table [dbo].[Customer]    Script Date: 9/23/2022 4:00:13 PM ******/
+/****** Object:  Table [dbo].[Restaurant]    Script Date: 9/23/2022 4:00:50 PM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -11,14 +11,14 @@ GO
 SET ANSI_PADDING ON
 GO
 
-CREATE TABLE [dbo].[Customer](
+CREATE TABLE [dbo].[Restaurant](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
-	[FirstName] [varchar](255) NOT NULL,
-	[LastName] [varchar](255) NOT NULL,
-	[CreatedDate] [datetime] NOT NULL CONSTRAINT [DF__Customer__Create__239E4DCF]  DEFAULT (getdate()),
-	[UpdatedDate] [datetime] NOT NULL CONSTRAINT [DF__Customer__Update__24927208]  DEFAULT (getdate()),
+	[Name] [varchar](255) NOT NULL,
+	[PhoneNumber] [varchar](255) NOT NULL,
+	[CreateDate] [datetime] NOT NULL CONSTRAINT [DF__Restauran__Creat__108B795B]  DEFAULT (getdate()),
+	[UpdateDate] [datetime] NOT NULL CONSTRAINT [DF__Restauran__Updat__117F9D94]  DEFAULT (getdate()),
 	[Archived] [bit] NOT NULL,
- CONSTRAINT [PK__Customer__3214EC074260EC04] PRIMARY KEY CLUSTERED 
+ CONSTRAINT [PK__Restaura__3214EC0725B3D681] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
