@@ -1,0 +1,40 @@
+USE [Projects]
+GO
+
+/****** Object:  Table [dbo].[RestaurantMenu]    Script Date: 9/23/2022 4:01:05 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[RestaurantMenu](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[MealName] [varchar](255) NOT NULL,
+	[PriceInNis] [float] NOT NULL,
+	[PriceInUsd] [float] NOT NULL,
+	[Quantity] [int] NOT NULL,
+	[CreatedDate] [datetime] NOT NULL CONSTRAINT [DF__Restauran__Creat__145C0A3F]  DEFAULT (getdate()),
+	[UpdatedDate] [datetime] NOT NULL CONSTRAINT [DF__Restauran__Updat__15502E78]  DEFAULT (getdate()),
+	[Archived] [bit] NOT NULL,
+	[RestaurantId] [int] NULL,
+ CONSTRAINT [PK__Restaura__3214EC0722012632] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[RestaurantMenu]  WITH CHECK ADD  CONSTRAINT [FK__Restauran__Resta__164452B1] FOREIGN KEY([RestaurantId])
+REFERENCES [dbo].[Restaurant] ([Id])
+GO
+
+ALTER TABLE [dbo].[RestaurantMenu] CHECK CONSTRAINT [FK__Restauran__Resta__164452B1]
+GO
