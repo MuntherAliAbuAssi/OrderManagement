@@ -1,0 +1,10 @@
+select Restaurant.Name NameResturent,
+count(Orders.id) as OrdersCount,
+		sum(RestaurantMenu.PriceInUsd) as PriceInUsdTotal,
+		sum(RestaurantMenu.PriceInNis) as PriceInNisTotal,	
+		(select FirstName from Customer where id = (select CustamerId from Orders group by CustamerId order by count(id) desc OFFSET  1 ROWS FETCH NEXT 1 ROWS ONLY)) as MostPurchasedCustomer,
+        (select MealName from RestaurantMenu where Id =(select RestaurantMenuId from Orders group by RestaurantMenuId order by count(id) desc OFFSET  1 ROWS FETCH NEXT 1 ROWS ONLY)) as TheBestSellingMeal 
+from Restaurant
+left join RestaurantMenu on Restaurant.Id = RestaurantMenu.RestaurantId
+left join Orders on RestaurantMenu.Id = Orders.RestaurantMenuId
+group by Restaurant.Name 
